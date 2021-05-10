@@ -1,0 +1,94 @@
+$shadow: 2px 4px 14px 7px rgba(43, 43, 43, 0.23);
+$radius: 5px;
+$border: 1px solid white;
+$bColor: white;
+$secondaryColor: #f08b33;
+
+.eTypeDiv {
+	background-color: $bColor;
+	box-shadow: $shadow;
+	border: $border;
+	border-radius: $radius;
+	margin: 2% 0 0 5%;
+	padding: 2%;
+	font-size: 20px;
+	font-weight: 700;
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.eTypeTitle {
+	font-weight: normal;
+	padding-bottom: 3%;
+}
+
+.filternType {
+	display: flex;
+}
+
+.filterE {
+	margin: 2% 0 0 2%;
+	background-color: $bColor;
+	padding: 2%;
+	border: $border;
+	border-radius: $radius;
+	box-shadow: $shadow;
+}
+
+.filterTitle {
+	font-size: 20px;
+	p {
+		text-align: left;
+	}
+}
+
+.filterBtn {
+	background-color: $secondaryColor !important;
+	border: 1px solid $secondaryColor !important;
+}
+
+.rBtns {
+	background-color: $bColor;
+	margin: 2% 0 0 2%;
+	padding: 2%;
+	padding-top: 2%;
+	box-shadow: $shadow;
+	border: $border;
+	border-radius: $radius;
+	p {
+		font-size: 20px;
+	}
+}
+
+.ant-radio-checked .ant-radio-inner {
+	border-color: $secondaryColor !important ;
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+	background-color: $secondaryColor;
+}
+
+.ant-radio:hover .ant-radio-inner {
+	border-color: $secondaryColor;
+}
+
+.ant-radio-checked .ant-radio-inner:focus {
+	border-color: $secondaryColor;
+}
+
+.chartDiv {
+	height: 60vh;
+	width: 90%;
+	background-color: $bColor;
+	border: $border;
+	border-radius: $radius;
+	margin: 2% 5% 0 5%;
+}
+
+.chart {
+	background-color: $bColor;
+	box-shadow: $shadow;
+	border: $border;
+	border-radius: $radius;
+}
