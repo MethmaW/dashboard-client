@@ -1,6 +1,6 @@
 ## Project Summary
 
-test summary.
+Dashboard application
 
 ## Installation and Setup Instructions
 
@@ -20,4 +20,4 @@ Clone this repository. You will need `node` and `npm` installed globally on your
 
 ## Tools and Technologies:
 
-This project is mainly built on `create-react-app` , `Redux` and `react-router-dom`.
+This project is mainly built on `create-react-app`.
