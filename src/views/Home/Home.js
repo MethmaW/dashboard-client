@@ -22,7 +22,7 @@ const Home = () => {
 
 	//----------use effect calls----------
 	useEffect(() => {
-		getEData(100, 0);
+		getEData();
 	}, []);
 
 	//----------methods----------
@@ -167,19 +167,19 @@ const Home = () => {
 					<p>
 						Operational:{" "}
 						{eTypeArr.map((t, i) => {
-							return t.type === "Operational" ? t.count : 0;
+							return t.type === "Operational" && t.count;
 						})}
 					</p>
 
 					<p>
 						Non - Operational:{" "}
 						{eTypeArr.map((t, i) => {
-							return t.type !== "Operational" ? t.count : 0;
+							return t.type !== "Operational" && t.count;
 						})}
 					</p>
 				</div>
 
-				<div className='filterE'>
+				{/* <div className='filterE'>
 					<div className='filterTitle'>
 						<p>Filter equipments</p>
 					</div>
@@ -210,7 +210,7 @@ const Home = () => {
 							Filter
 						</Button>
 					</div>
-				</div>
+				</div> */}
 
 				<div className='rBtns'>
 					<p>Select Graph type</p>

@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const getEquipmentData = async (max, last) => {
+const getEquipmentData = async () => {
 	return await axios({
-		url: `${process.env.REACT_APP_BACKEND_HOSTED_URL}/api/dashboard/${max}/${last}`,
+		url: `${process.env.REACT_APP_BACKEND_URL}/api/dashboard/`,
 		method: "GET",
 	})
 		.then((res) => res.data)
